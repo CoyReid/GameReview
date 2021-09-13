@@ -1,6 +1,5 @@
 # GameReview
 
-<<<<<<< HEAD
 # Website:
 
 # Title: GameReview Website
@@ -9,15 +8,6 @@
 
 # User Story:
 
-# What are you planning on building?:
-=======
-  Website:
-  Title: GameReview Website
-  Purpose:
-  User Story:
->>>>>>> 46960ec848fcb8dd9a61fc60741c85ebfc5e2d51
-
-    -GameReview Website
 
 # What are your models?:
 
