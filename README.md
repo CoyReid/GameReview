@@ -1,9 +1,9 @@
 # GameReview
 
-Website:
-Title: GameReview Website
-Purpose:
-User Story:
+  Website:
+  Title: GameReview Website
+  Purpose:
+  User Story:
 
 What are you planning on building?:
     -GameReview Website
