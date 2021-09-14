@@ -15,5 +15,5 @@ class GamesController < ApplicationController
   get '/games/pc' do
     serialize(Game.pc)
   end
-
+  
 end
