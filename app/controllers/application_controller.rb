@@ -1,11 +1,12 @@
 class ApplicationController < Sinatra::Base
     set :default_content_type, 'application/json'
     
-    # Add your routes here
-    get "/data" do
+    get "/games" do
       serialize(Game.all)
     end
-  
+
+    private
+    
     def serialize(objects)
       objects.to_json(
         include: {
@@ -17,5 +18,4 @@ class ApplicationController < Sinatra::Base
         }
       )
     end
-
   end

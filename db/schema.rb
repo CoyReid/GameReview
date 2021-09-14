@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 2021_09_13_200648) do
     t.string "genre"
     t.string "platform"
     t.string "image_url"
-    t.integer "price"
+    t.string "publisher"
   end
 
   create_table "reviews", force: :cascade do |t|
