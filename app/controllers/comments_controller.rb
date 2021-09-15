@@ -4,6 +4,12 @@ class CommentsController < ApplicationController
     Comment.create(comment_params).to_json(include: :user)
   end
 
+  delete '/comments/:id' do
+    comment = Comment.find(params[:id])
+    comment.destroy
+    comment.to_json()
+  end
+
   private
 
   def comment_params

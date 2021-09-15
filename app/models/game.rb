@@ -22,8 +22,12 @@ class Game < ActiveRecord::Base
         Game.all.select{|game| game.platform == "PC"}
     end
 
-    def self.all_by_rating
+    def self.rating_high
         Game.all.max_by(Game.all.length) {|game| game.rating}
+    end
+
+    def self.rating_low
+        Game.all.min_by(Game.all.length) {|game| game.rating}
     end
 
 end

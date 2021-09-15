@@ -17,7 +17,11 @@ class GamesController < ApplicationController
   end
 
   get '/games/sort_by_rating' do
-    serialize(Game.all_by_rating)
+    serialize(Game.rating_high)
+  end
+
+  get '/games/sort_by_rating_low' do
+    serialize(Game.rating_low)
   end
   
 end
