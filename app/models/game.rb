@@ -2,6 +2,10 @@ class Game < ActiveRecord::Base
     has_many :reviews
     has_many :users, through: :reviews
 
+    def rating
+        self.reviews.first.score
+    end
+
     def self.nintendo
         Game.all.select{|game| game.platform == "N64" || game.platform == "Wii" || game.platform == "Switch" || game.platform == "Wii-U" || game.platform == "Gamecube" || game.platform =="Nintendo-DS"}
     end
@@ -16,6 +20,10 @@ class Game < ActiveRecord::Base
 
     def self.pc
         Game.all.select{|game| game.platform == "PC"}
+    end
+
+    def self.all_by_rating
+        Game.all.max_by(Game.all.length) {|game| game.rating}
     end
 
 end

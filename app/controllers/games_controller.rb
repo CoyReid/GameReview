@@ -15,5 +15,9 @@ class GamesController < ApplicationController
   get '/games/pc' do
     serialize(Game.pc)
   end
+
+  get '/games/sort_by_rating' do
+    serialize(Game.all_by_rating)
+  end
   
 end
