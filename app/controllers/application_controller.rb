@@ -6,6 +6,10 @@ class ApplicationController < Sinatra::Base
     serialize(Game.all)
   end
 
+  get "/games/:id" do
+    serialize(Game.find(params[:id]))
+  end
+
   private
   
   def serialize(objects)

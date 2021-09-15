@@ -7,7 +7,7 @@ class Game < ActiveRecord::Base
     end
 
     def self.nintendo
-        Game.all.select{|game| game.platform == "N64" || game.platform == "Wii" || game.platform == "Switch" || game.platform == "Wii-U" || game.platform == "Gamecube" || game.platform =="Nintendo-DS"}
+        Game.all.select{|game| game.platform == "N64" || game.platform == "Wii" || game.platform == "Switch" || game.platform == "Wii-U" || game.platform == "GameCube" || game.platform =="Nintendo-DS"}
     end
 
     def self.xbox
