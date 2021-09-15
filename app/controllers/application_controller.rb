@@ -16,12 +16,15 @@ class ApplicationController < Sinatra::Base
     objects.to_json(
       include: {
         reviews: {
-          include: {
+          include: [
+            :user, 
             comments: {include: :user}
-          }
+          ]
         }
       }
     )
   end
 
 end
+
+
