@@ -14,6 +14,7 @@ class ApplicationController < Sinatra::Base
   
   def serialize(objects)
     objects.to_json(
+      methods: :avg,
       include: {
         reviews: {
           include: [

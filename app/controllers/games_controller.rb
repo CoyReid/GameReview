@@ -23,10 +23,5 @@ class GamesController < ApplicationController
   get '/games/sort_by_rating_low' do
     serialize(Game.rating_low)
   end
-
-  get '/games/reviews/scores/:id' do
-    game = Game.find(params[:id]).reviews.average(:score).to_f.to_i
-    game.to_json()
-  end
   
 end

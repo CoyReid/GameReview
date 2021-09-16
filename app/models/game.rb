@@ -30,4 +30,8 @@ class Game < ActiveRecord::Base
         Game.all.min_by(Game.all.length) {|game| game.rating}
     end
 
+    def avg 
+        self.reviews.average(:score).to_f.to_i
+    end
+
 end
