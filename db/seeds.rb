@@ -12,7 +12,7 @@ puts "🌱 Seeding data..."
 #pc_publishers = Rockstar Games, Valve, 2K Games, Bethesda, Blizzard, Mojang, Riot Games
 
 #nintendo games
-g1 = Game.create(title: "The Legend of Zelda: Ocarina of Time",	genre: "Action/Adventure", platform:	"N64", image_url: "https://images.nintendolife.com/b23ee6b78ed2b/na.original.jpg", publisher: "Nintendo")
+g1 = Game.create(title: "The Legend of Zelda: Ocarina of Time",	genre: "Action/Adventure", platform:	"N64", image_url: "https://m.media-amazon.com/images/M/MV5BZjc3MmMzNGItYmEzYy00MWFhLWI0NDQtMWE3Y2Q1NjE1OWRlXkEyXkFqcGdeQXVyNzcyMjAwNTE@._V1_.jpg", publisher: "Nintendo")
 g2 = Game.create(title: "Wii Sports",	genre: "Sports", platform: "Wii", image_url: "https://images.nintendolife.com/games/wii/wii_sports/cover_large.jpg", publisher: "Nintendo")
 g3 = Game.create(title: "Super Smash Bros. Ultimate",	genre: "Fighting", platform:	"Switch", image_url: "https://www.mobygames.com/images/covers/l/548925-super-smash-bros-ultimate-nintendo-switch-front-cover.jpg", publisher: "Nintendo")
 g4 = Game.create(title: "The Legend of Zelda: Breath of the Wild",	genre: "Action/Adventure", platform:	"Switch", image_url: "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg", publisher: "Nintendo")
@@ -21,7 +21,7 @@ g6 = Game.create(title: "Super Mario 64", genre: "Platformer", platform: "N64", 
 g7 = Game.create(title: "Super Mario Sunshine",	genre: "Platformer", platform:	"GameCube", image_url: "https://assets-prd.ignimgs.com/2020/09/04/super-mario-sunshine-button-1599246426728.jpg", publisher: "Nintendo")
 g8 = Game.create(title: "Animal Crossing", genre: "Simulation", platform:	"GameCube", image_url: "https://images.nintendolife.com/games/gamecube/animal_crossing/cover_large.jpg", publisher: "Nintendo")
 g9 = Game.create(title: "Super Mario Galaxy",	genre: "Platformer", platform:	"Wii", image_url: "https://upload.wikimedia.org/wikipedia/en/7/76/SuperMarioGalaxy.jpg", publisher: "Nintendo")
-g10 = Game.create(title: "Pokemon Platinum", genre: "RPG", platform:	"Nintendo-DS", image_url: "https://m.media-amazon.com/images/I/71C28eEEaML._SL1114_.jpg", publisher: "Nintendo")
+g10 = Game.create(title: "Pokemon Platinum", genre: "RPG", platform:	"Nintendo-DS", image_url: "https://images.booksense.com/images/085/562/9780761562085.jpg", publisher: "Nintendo")
 
 #xbox games
 g11 = Game.create(title: "Halo: Combat Evolved", genre: "Shooter", platform:	"Xbox", image_url: "https://halo.wiki.gallery/images/6/6a/Halo_Combat_Evolved_cover.png", publisher: "Microsoft")
@@ -37,7 +37,7 @@ g20 = Game.create(title: "Gears 5",	genre: "Shooter", platform:	"Xbox One", imag
 
 #playstation games
 g21 = Game.create(title: "God of War", genre: "Action/Adventure", platform:	"PlayStation 4", image_url: "https://i.redd.it/6yquel5ks7k01.jpg", publisher: "Sony Computer Entertainment")
-g22 = Game.create(title: "The Last of Us", genre: "Action/Adventure", platform:	"PlayStation 3", image_url: "https://m.media-amazon.com/images/I/A1dXfW1yPNL._SL1500_.jpg", publisher: "Sony Computer Entertainment")
+g22 = Game.create(title: "The Last of Us", genre: "Action/Adventure", platform:	"PlayStation 3", image_url: "https://www.mobygames.com/images/covers/l/504806-the-last-of-us-playstation-3-front-cover.jpg", publisher: "Sony Computer Entertainment")
 g23 = Game.create(title: "Marvel's Spider-Man: Miles Morales", genre: "Action/Adventure", platform:	"PlayStation 4", image_url: "https://n8x3c6t6.stackpathcdn.com/wp-content/uploads/2020/11/Sans-titre-1.jpg", publisher: "Sony Interactive Entertainment")
 g24 = Game.create(title: "Uncharted 2: Among Thieves", genre: "Action/Adventure", platform:	"PlayStation 3", image_url: "https://e.snmc.io/lk/fv/x/26abf1e3016f4b35a1b3f27ad4b21c2e/6853855", publisher: "Sony Computer Entertainment")
 g25 = Game.create(title: "Ghost of Tsushima",	genre: "Action/Adventure", platform:	"PlayStation 4", image_url: "https://cdn11.bigcommerce.com/s-boldppk8jp/images/stencil/1280x1280/products/1418/1185/Ghost-of-tsushima-PS4-Cover_Compressed__34495.1595229890.jpg?c=1", publisher: "Sony Interactive Entertainment")
