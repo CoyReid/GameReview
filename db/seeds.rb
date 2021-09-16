@@ -37,7 +37,7 @@ g20 = Game.create(title: "Gears 5",	genre: "Shooter", platform:	"Xbox One", imag
 
 #playstation games
 g21 = Game.create(title: "God of War", genre: "Action/Adventure", platform:	"PlayStation 4", image_url: "https://i.redd.it/6yquel5ks7k01.jpg", publisher: "Sony Computer Entertainment")
-g22 = Game.create(title: "The Last of Us", genre: "Action/Adventure", platform:	"PlayStation 3", image_url: "https://www.mobygames.com/images/covers/l/327990-the-last-of-us-playstation-3-front-cover.jpg", publisher: "Sony Computer Entertainment")
+g22 = Game.create(title: "The Last of Us", genre: "Action/Adventure", platform:	"PlayStation 3", image_url: "https://images-na.ssl-images-amazon.com/images/I/91yiVwuQ2cL.jpg", publisher: "Sony Computer Entertainment")
 g23 = Game.create(title: "Marvel's Spider-Man: Miles Morales", genre: "Action/Adventure", platform:	"PlayStation 4", image_url: "https://n8x3c6t6.stackpathcdn.com/wp-content/uploads/2020/11/Sans-titre-1.jpg", publisher: "Sony Interactive Entertainment")
 g24 = Game.create(title: "Uncharted 2: Among Thieves", genre: "Action/Adventure", platform:	"PlayStation 3", image_url: "http://betweenlifeandgames.com/wp-content/uploads/2012/08/uncharted_2_cover.png", publisher: "Sony Computer Entertainment")
 g25 = Game.create(title: "Ghost of Tsushima",	genre: "Action/Adventure", platform:	"PlayStation 4", image_url: "https://cdn11.bigcommerce.com/s-boldppk8jp/images/stencil/1280x1280/products/1418/1185/Ghost-of-tsushima-PS4-Cover_Compressed__34495.1595229890.jpg?c=1", publisher: "Sony Interactive Entertainment")
