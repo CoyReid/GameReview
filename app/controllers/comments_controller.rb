@@ -1,7 +1,7 @@
 class CommentsController < ApplicationController
  
   post '/comments' do
-    Comment.create(comment_params).to_json(include: :user)
+    Comment.create(comment_params).to_json()
   end
 
   delete '/comments/:id' do
