@@ -1,31 +1,11 @@
-# GameReview
+# README
 
-# Website:
+## Description
 
-# Title: GameReview Website
+This project is meant to mimic a game review website, featuring top selling games from popular gaming platforms.  
 
-# Purpose:
+Demo:
 
-# User Story:
+*insert link*
 
-# What are your models?:
-
-    -Game, Review, and User
-
-# Include Relationships & Associations:
-
-    -Game has many reviews, and users through reviews.
-    -User has many reviews, and games through reviews
-    -Game is left table, User is right, Review is middle with both foreign keys
-
-# What are some of the features of your app?:
-
-    -Be able to look, review and like each game and add comments.
-    -Create your own review.
-    -Navigate through different games, and consoles.
-    -Sort by different rating, date, consoles.
-    -Click on each game card to expand info and review.
-
-# What do you think your biggest challenge is going to be?:
-
-    -Routing/ Fetching endpoints. Connecting ruby to react.
+GameReview is meant to be a personal project and will not be deployed for now. 
